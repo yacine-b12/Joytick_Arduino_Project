@@ -1,6 +1,6 @@
 # Joytick_Arduino_Project
 
-![Project Wiring Diagram](Joysick.jpeg)
+![Project Wiring Diagram](Joystick.jpeg)
 
 ## Overview
 
