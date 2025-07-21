@@ -6,8 +6,6 @@
 
 int x = 0; // To store value of the X axis
 int y = 0; // To store value of the Y axis
-int Sc = 0;
-int Sr = 0;
 
 LiquidCrystal lcd(12, 11, 6, 5, 4, 3);
 
@@ -24,7 +22,5 @@ void loop() {
   Serial.print(x);
   Serial.print(", y = ");
   Serial.println(y);
-  Serial.println(Sc);
-  Serial.println(Sr);
   delay(200);
 }
