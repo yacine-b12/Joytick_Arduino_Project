@@ -1,13 +1,8 @@
-#include <LiquidCrystal.h>
-
-
 #define VRX_PIN  A1 // Arduino pin connected to VRX pin
 #define VRY_PIN  A0 // Arduino pin connected to VRY pin
 
 int x = 0; // To store value of the X axis
 int y = 0; // To store value of the Y axis
-
-LiquidCrystal lcd(12, 11, 6, 5, 4, 3);
 
 void setup() {
   Serial.begin(9600) ;
